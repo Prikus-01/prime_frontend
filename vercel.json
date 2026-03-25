@@ -1,5 +1,9 @@
 {
-    "rewrites": [
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://prime-backend-hjgn.onrender.com/api/:path*"
+    },
     {
       "source": "/(.*)",
       "destination": "/"
